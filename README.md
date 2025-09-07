@@ -1,8 +1,106 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Anime Wallpaper App with Spotify Integration 🎵🎨
 
-# Getting Started
+A unique React Native app that generates dynamic anime wallpapers that react to your Spotify music and device sensors.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## 🌟 Features
+
+### 🎵 Spotify Integration
+- **Music-Reactive Wallpapers**: Wallpapers change colors and effects based on your currently playing Spotify track
+- **Mood Analysis**: AI analyzes your music's energy, tempo, and mood to generate matching wallpapers  
+- **Real-time Sync**: Live updates as your music changes
+
+### 🎨 Generative Art
+- **Sensor-Based Effects**: Use device accelerometer and gyroscope for interactive wallpapers
+- **Touch Interactions**: Tap and drag to create particle effects
+- **Multiple Styles**: Particles, gradients, geometric shapes, and organic patterns
+- **Anime Aesthetics**: Color palettes and themes inspired by anime art
+
+### 📱 App Screens  
+1. **Home**: Featured wallpapers and quick actions
+2. **Browse**: Search and filter anime wallpapers by category
+3. **Live Effects**: Interactive generative art with device sensors
+4. **Favorites**: Save and manage your favorite wallpapers
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- React Native development environment
+- Android Studio or Xcode
+
+### Run the App
+
+1. **Start Metro server**
+   ```bash
+   npm start
+   ```
+
+2. **Run on device**
+   ```bash
+   # Android  
+   npm run android
+   
+   # iOS
+   npm run ios
+   ```
+
+## 🎯 App Flow
+
+1. **Launch** → Beautiful anime-themed home screen
+2. **Browse** → Explore wallpapers by category, search, and filter  
+3. **Generate** → Create unique wallpapers using device sensors
+4. **Music Sync** → Connect Spotify for music-reactive effects
+5. **Save** → Download wallpapers to device gallery
+
+## 🛠️ Tech Stack
+
+- **React Native 0.81** - Cross-platform mobile framework
+- **TypeScript** - Type-safe development  
+- **React Navigation** - Screen navigation
+- **Device Sensors** - Accelerometer, gyroscope integration
+- **Spotify Web API** - Music data integration
+
+## 🎨 Unique Features
+
+### 1. **Music Mood Analysis**
+- Analyzes Spotify track energy, valence, tempo
+- Maps musical features to visual styles
+- Real-time color and pattern changes
+
+### 2. **Interactive Particles** 
+- Touch to attract/repel particles
+- Shake device to scatter particles
+- Tilt device to create gravity effects
+
+### 3. **Anime Aesthetics**
+- Curated color palettes inspired by anime
+- Particle effects like cherry blossoms, sparkles
+- Mood-based visual themes
+
+### 4. **Zero Cost Operation**
+- No cloud API costs for basic features
+- Local generative algorithms
+- Free tier usage only
+
+## 📱 Current Status
+
+✅ **Completed**:
+- App navigation and structure
+- Home screen with featured wallpapers
+- Browse screen with search and filters  
+- Interactive particle effects screen
+- Favorites management
+- Mock Spotify service
+- Wallpaper generation utilities
+
+🔧 **Next Steps**:
+- Real device sensor integration
+- Spotify OAuth implementation  
+- Image download functionality
+
+---
+
+**Built with ❤️ for anime and music lovers**
 
 ## Step 1: Start Metro
 
